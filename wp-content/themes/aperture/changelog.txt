@@ -1,0 +1,253 @@
+*** Aperture Changelog ***
+
+2012.04.16 - version 2.7.2
+ * includes/theme-options.php - tweaked options array in order to work with the new WooFramework.
+
+2012.01.18 - version 2.7.1
+ * style.css - added style on line 509 to show first slide while slider loads
+
+2011.11.29 - version 2.7
+ * includes/theme-options.php - added option under Layout on showing full content or excerpt on blog layout
+ * template-blog.php - added read more link to posts
+ * style.css - added styling for span.post-more
+ * single.php - fixed woo_image to work on IE with new framework
+
+2011.10.06 - version 2.6.2
+ * featured.php - Changed "next" and "prev" CSS classes on the featured slider to "next-slide" and "prev-slide" to resolve conflict with NextGen Gallery.
+ * theme-functions.php - Added "next" and "prev" button triggers in SlidesJS call as "next-slide" and "prev-slide" to resolve conflict with NextGen Gallery.
+
+2011.09.15 - version 2.6.1
+ * includes/theme-functions.php - Fixed slider JS for IE7
+
+2011.07.24 - version 2.6
+ * UPDATED SLIDER TO SLIDESJS
+ * style.css - added #slides section new styles
+ * includes/theme-functions.php - added slider setting function
+ * /images/loading.png - new image for slidesJS
+ * includes/featured.php - new CSS and HTML for slidesJS
+ * includes/theme-js.php - new JS loading for slidesJS
+ * includes/theme-options.php - new options for slidesJS
+ * includes/js/slides.min.jquery.js - new slidesJS library
+ * includes/js/stepcarousel-setup.js - DELETED
+ * includes/js/stepcarousel.js - DELETED
+
+2011.02.14 - version 2.5.1
+ * includes/theme-widgets.php - fixed Recent Blog Posts argument (lines 368-369)
+
+2011.01.21 - version 2.5
+ * includes/theme-options.php - cleaned up options. Removed blog options.
+ * template-blog.php - removed blog template tags (this theme can't use it)
+ * featured.php, 
+   includes/theme-widgets.php, 
+   archive.php, 
+   footer-home.php, 
+   sidebar-home.php - fixed blog query to use proper blog cat id
+ * header.php - removed navigation options for old blog setup
+ * lang/en_BG.po - new lang file
+
+2010.12.11 - version 2.4.5
+ * includes/theme-widgets.php - updated popular posts widget code
+
+2010.10.11 - version 2.4.4
+ * header.php - Added Body Class
+
+2010.09.23 - version 2.4.3
+ * search.php - Fixed missing span in title
+
+2010.07.13 - version 2.4.2
+ * theme-widgets.php - Fixed Twitter widget title bug
+
+2010.06.28 - version 2.4.1
+ * /styles/*.css  - Fixed Gravity form styling bug
+
+2010.06.21 - version 2.4.0
+ * header.php - Added theme support for WordPress 3.0 Menu Management
+ * /includes/theme-functions.php - Added theme support for WordPress 3.0 Menu Management
+ * style.css - Added classes for trackback and pingbacks on the .comment class
+ * comments.php - Added variable for pings at the top of the loop.
+ 
+2010.06.14 - version 2.3.1
+ * /styles/*.css  - Added styling for Gravity forms
+
+2010.05.04 - version 2.3
+ * includes/theme-options.php - Added show image in RSS feed option
+
+2010.04.25 - version 2.2
+ * header.php - added support for WooNav
+
+2010.04.07 - version 2.1
+ * /functions/* - MAJOR UPDATE - Framework V.2.7.0
+ * header.php  - Added SEO tags, woo_title(); & woo_meta();
+ * functions.php - Changed layout for loading required files.
+
+2010.03.04 - version 2.0.1
+ * index.php - fixed thumb.php to woo_image function (line 34)
+
+2010.01.14 - version 2.0
+ * includes/theme-options.php - Added option to specify featured slider category
+ * includes/featured.php - added featured category to query
+
+2009.10.23 - version 1.4.1
+ * includes/featured.php - Fixed bloginfo to use template_directory so child theme works
+ * header.php - Fixed bloginfo to use template_directory so child theme works
+
+2009.10.10 - version 1.4
+ * includes/theme-options.php - Added option to disable single post image
+   single.php - added option (line 35)
+
+2009.09.04 - version 1.3.8
+  * header.php - fixed php error on line 46
+
+2009.09.04 - version 1.3.7 
+  * /functions/ - Framework upgrade to 108
+  
+2009.09.02 - version 1.3.6 
+  * includes/theme-widgets.php - Recent Posts widget, now setting the amount of posts works.
+
+
+2009.08.31 - version 1.3.5
+  * /functions/ - Core framework upgrade to V.1.0.7
+  * /lang/aperture.po - Added language file. See: http://www.woothemes.com/2009/08/how-to-translate-a-theme/
+  * Added gettext functions to template php files to support localization.
+
+2009.08.30 - version 1.3.4 
+  * includes/theme-options.php - Fixed typo. 300px not 220px.
+
+2009.08.11 - version 1.3.3
+  * /functions/ - Core framework upgrade to V.1.0.6
+  * header.php - fixed IE6 pngfix include (line 24)
+  * includes/js/pngfix.js - added IE6 pngfix
+  * includes/js/superfish - added superfish to dropdowns
+    includes/theme-js.php
+
+2009.08.11 - version 1.3.2
+  * /functions/ - Core framework upgrade to V.1.0.5
+
+2009.07.28 - version 1.3.1
+  * /functions/ - Core framework upgrade to V.1.0.4a
+
+2009.07.28 - version 1.3
+  * /functions/ - Core framework upgrade to V.1.0.4
+  * /includes/theme-options.php - Added Custom CSS backend option
+  * /includes/theme-functions.php - Removed duplicate get_page_id() function
+
+2009.07.20 - version 1.2.9
+ * /functions/ - Core Update (V.1.0.3)
+ * /includes/theme-widgets.php - Flickr Widget Fix
+ * /ie.css - Added hacks for flick and latest blog boxes
+
+2009.07.14 - version 1.2.8
+ * archive.php - Fixed archive leaderboard ad enable/disable feature
+
+2009.07.04 - version 1.2.7
+ * /functions/ - Core functions upgrade
+ * footer-home.php - Added $force = true to homepage, and added preset div for pageload bug as a backup.
+
+2009.07.03 - version 1.2.6
+ * /functions/ - Core functions upgrade
+ * index.php
+
+2009.07.03 - version 1.2.5
+ * /ads/ - Added ad management facility
+ * style.css - Advert styling added
+ * index.php - Added optional leaderboard ad below featured slider
+ * includes/theme-options.php - Added the advertising theme options
+ * includes/widgets.php - Added widgetized ad space
+ * header.php - Added optional top banner ad in replace of category dropdown menu
+ * archive.php - Added optional leaderboard ad on archive page
+
+2009.06.29 - version 1.2.4
+ * /functions/ - Core Update
+ * /includes/theme-options.php - Globals bug
+
+2009.06.18 - version 1.2.3
+ * /includes/theme-options.php - Added Category Box Images
+ * /index.php - Implementation of category Box Images
+
+2009.06.18 - version 1.2.2
+ * footer.php - removed duplicate google analytics line
+
+2009.06.16 - version 1.2.1
+ * /includes/js/scripts.js - Removed redundant script
+
+2009.06.16 - version 1.2
+ * /functions/admin-custom.php - Core update
+ * /functions/admin-functions.php - Core Update
+
+2009.06.15 - version 1.1.9
+ * /functions/ - Core Update
+ * /theme-options.php
+ * single.php - added nulling values
+
+2009.06.12 - version 1.1.8
+* /functions/ - Core Update (get_categories bug)
+* /includes/theme-options.php - Function nesting and init add_action
+* index.php - get_categories() argument update
+
+2009.06.05 - version 1.1.7
+* /functions/ - Core Update (auto save bug)
+
+2009.06.03 - version 1.1.6
+* /functions/ - Core Update
+* /includes/theme-functions.php - Checkbox fix
+* /includes/js/scripts.js - Update
+ */header.php - checkbox fix
+
+2009.06.02 - version 1.1.5
+* /functions/ - Core Update
+* /includes/theme-options.php - New copy and added favicon option   
+
+2009.06.01 - version 1.1.4
+  * /functions/ - Theme core update (quick edit bug)
+  * /includes/js/scripts.js - Added stop() to image opacity animations
+  * /includes/theme-widgets.php - Fixed Subscribe Widget bug
+  * /includes/theme-options.php - New copy and adjusted template order, and added new default on style changer and dynamic images 
+  * /single.php - Tweaked the woo_get_image to compensate for portrait images
+
+
+2009.05.18 - version 1.1.3
+  * /functions/admin-functions.php - Corrected the WooAutoImg linking to the attachment permalink. 
+  * /includes/theme-options.php - Added subheading for Dynamic Images and removed Layout Settings heading.
+
+2009.05.18 - version 1.1.2
+  * /functions/admin-custom.php - Upload destination and empty $_POST fixes    * /functions/admin-funcions.php - Modified Woo_get_image()
+  * /functions/admin-interface.php - more settings with folder creation & error catching
+  * /includes/featured.php - removed links tags
+  * /includes/them-js.php - added is_home() to script loading
+  * /includes/theme-options.php - custom logo now an upload
+  * archives.php - Loop fix
+  * index.php - Edit on get_categories drop down
+
+
+2009.05.15 - version 1.1.1
+  * /functions/ - Updated entire folder
+  * functions.php - Normalized to defualt WooThemes framework
+  * /includes/widget-init.php - changed to sidebar-init.php
+  * /includes/theme-options.php - Amended new Woo Auto Img functionality
+  * /includes/theme-comments.php - Not used, but more framework normilization.
+	
+
+2009.05.11 - version 1.1
+  * functions and includes folder file structure changes and updates 
+  * custom.php - renamed to admin-custom.php
+  * functions/admin-interface.php - revert back to old upload scymatics, added javascript try and catch on page specific elements ("show" bug)
+  * includes/theme-options.php - Amended woo custom box
+  * includes/js/pngfix.js - removed (ie "expected" bug)
+  * includes/js/DD_belatedPNG_0.0.7a-min.js.js - added as png management
+  * header.php - added png managemant references
+  * functions.php - correcterd file name references	
+  * style.css - added display styles to image .thumbnail class
+
+
+2009.05.07 - version 1.0.2
+  * includes/theme-options.php - Removed duplicated blog permalink field
+  * archive.php, search.php, template-blog.php - pagination fix
+  * style.css - added styling for pagenavi plugin (under pagination comment)
+
+2009.04.29 - version 1.0.1
+  * includes/featured.php - Fixed subscribe button linkage
+  * style.css - class added .rss_subscribe
+  * index.php - Converted category link argument to string
+
+2009.04.28 - version 1.0.0
+  * First release!
