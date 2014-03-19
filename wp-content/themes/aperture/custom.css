@@ -757,6 +757,10 @@ p.post_meta {
 	width: 264px !important;
 }
 
+#sidebar ul {
+    border-bottom: 0 none;
+}
+
 #sidebar div.widget_text, #sidebar div.widget {
     padding: 20px 15px 0;
 }
@@ -839,6 +843,11 @@ p.post_meta {
 #text-9 h3 {
 	background-position: 0 -110px !important;
 	height: 20px;
+}
+
+#categories-2 > h3 {
+    background-position: 0 -146px !important;
+    height: 20px;
 }
 	
 	/**Shakespeare's Women**/
