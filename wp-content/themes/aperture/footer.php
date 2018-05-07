@@ -36,6 +36,10 @@
 				</div>
 			
 			</div>
+
+			<div class="col-full privacy">
+			    <a target="_blank" href="https://www.shakespeare.org.uk/terms-conditions/">T&amp;Cs, Privacy and Cookies</a>
+			</div>
 		
 		</div>
             

@@ -886,7 +886,7 @@ p.post_meta {
 .footer {
 	background: #000;
 	width: 100%;
-	height: 85px;
+	height: 117px;
 	border-top: 2px solid #151515;
     color: #888888;
 	font-size: 16px;
@@ -897,6 +897,16 @@ p.post_meta {
 .col-full {
 	margin: 0 auto;
     width: 1005px;
+    overflow: hidden;
+}
+
+.col-full.privacy {
+    position: relative;
+    top: -22px;
+}
+
+.col-full.privacy a {
+    color: #888888;
 }
 
 #copyright {
